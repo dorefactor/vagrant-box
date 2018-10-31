@@ -1,0 +1,3 @@
+---
+virtual_machine_name: dorefactor
+synced_folder_application_addons: ./workspace
