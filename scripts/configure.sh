@@ -23,9 +23,9 @@ rm -rf code_1.28.2-1539735992_amd64.deb
 apt-get install -y openjdk-11-jdk
 
 # Eclipse
-wget -O eclipse-jee-2018-09-linux-gtk-x86_64.tar.gz http://ftp.fau.de/eclipse/technology/epp/downloads/release/2018-09/R/eclipse-jee-2018-09-linux-gtk-x86_64.tar.gz
-tar -xvf eclipse-jee-2018-09-linux-gtk-x86_64.tar.gz
-rm -rf eclipse-jee-2018-09-linux-gtk-x86_64.tar.gz
+wget -O spring-tool-suite-3.9.6.RELEASE-e4.9.0-linux-gtk-x86_64.tar.gz https://download.springsource.com/release/STS/3.9.6.RELEASE/dist/e4.9/spring-tool-suite-3.9.6.RELEASE-e4.9.0-linux-gtk-x86_64.tar.gz
+tar -xvf spring-tool-suite-3.9.6.RELEASE-e4.9.0-linux-gtk-x86_64.tar.gz
+rm -rf spring-tool-suite-3.9.6.RELEASE-e4.9.0-linux-gtk-x86_64.tar.gz
 
 # Maven
 apt-get install -y maven
