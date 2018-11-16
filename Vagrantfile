@@ -9,7 +9,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Configuration
   config.vm.box = 'peru/ubuntu-18.04-desktop-amd64'
-  config.vm.box_version = '20181019.01'
   config.vm.hostname = SETTINGS['virtual_machine_name']
 
   # Provider
