@@ -37,3 +37,5 @@ rm -rf dbeaver-ce_latest_amd64.deb
 
 # Assign Loopback IP Address to work with Docker
 ifconfig lo:0 alias 192.168.99.1
+
+chown vagrant /home/vagrant/workspace
