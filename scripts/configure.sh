@@ -39,3 +39,5 @@ rm -rf dbeaver-ce_latest_amd64.deb
 ifconfig lo:0 alias 192.168.99.1
 
 chown vagrant /home/vagrant/workspace
+
+echo "192.168.99.1 mysql" >> /etc/hosts
