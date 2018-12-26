@@ -41,3 +41,11 @@ ifconfig lo:0 alias 192.168.99.1
 chown vagrant /home/vagrant/workspace
 
 echo "192.168.99.1 mysql" >> /etc/hosts
+
+echo `auto lo lo:10
+iface lo inet loopback
+
+iface lo:10 inet static
+        address 192.168.99.1
+        netmask 255.255.255.0
+        network 192.168.99.1` >> /etc/network/interfaces
